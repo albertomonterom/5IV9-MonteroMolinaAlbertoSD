@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>programadesubneteo</title>
+    <link rel="stylesheet" href="./css/masterstyle.css">
+    <script src="./js/subneteo.js"></script>
+    <script src="./js/tablas.js"></script>
+</head>
+<body>
+    <header class="titulo">PROGRAMA DE SUBNETEO</header>
+
+    <div class="entlineal">
+        <div>
+            <label class="text-content">INGRESA LA IP</label>
+                        
+            <input type="input_text" class="boxi" id="ip" name="ip" >
+                
+            <label class="text-content">NÚMERO DE SUBREDES</label>
+                
+            <input type="input_text" class="boxi" id="subred">
+               
+            <input type="button" class="subneteo-button" value="CALCULAR" onclick="XDE()" >
+        </div>
+    
+        <br>
+    
+        <div class="cont_perfil">
+               
+            <p class="titletext">IP EN BINARIO</p>
+                   
+            <input type="text" class="boxi" id="ipbin" readonly>
+               
+            <p class="titletext">TIPO DE CLASE</p>  
+                    
+            <input type="text" class="boxi" id="clase" readonly>
+                    
+            <p class="titletext">MÁSCARA DE SUBRED ADAPTADA</p>
+                    
+            <input type="text" class="boxi" id="maskadap" readonly>
+                   
+            <p class="titletext">MÁSCARA DE SUBRED EN BINARIO</p>
+                    
+            <input type="text" class="boxi" id="maskbin" readonly>
+                    
+            
+        </div>
+
+        <div>
+            <table id="tabla1" class="table">           
+            </table>
+        </div>
+
+    </div>
+    
+
+
+    
+</body>
+</html>

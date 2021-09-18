@@ -1,0 +1,56 @@
+html{
+    background-color: #161a1d;
+}
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    margin-top: 2rem;
+    border: 6px solid #8a817c;
+    border-radius: 2rem;
+    font-size: 60px;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    background: -webkit-linear-gradient(top, #495057, #343a40);
+    margin-bottom: 4rem;
+}
+.subneteo-button{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 19px;
+    box-shadow: 0 6px 6px;
+    border-radius: 4px;
+    margin: 2rem;
+}
+.text-content{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin: 2rem;
+}
+.entlineal{
+    text-align: center;
+}
+.titletext{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #495057;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    margin: 2rem;
+    margin-inline: 30%;
+    text-align: center;
+    border: 6px solid #8a817c;
+    border-radius: 4px;
+ }
+.subneteo-content{
+    text-align: center;
+}
